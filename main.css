@@ -1,0 +1,281 @@
+
+header {
+    display: flex;
+    justify-content: space-between;
+    padding: 32px;
+    position: sticky;
+    top: 0;        
+    border-bottom: 1px solid #1c1c1e;
+    background-color: white;
+}
+
+
+.aa{
+    text-decoration: none;
+    color: black;
+}
+
+
+
+body {
+    width: 100%;
+    max-width: 1000px; 
+    margin: 0 auto;    
+    box-sizing: border-box;
+}
+
+.inf{
+    display: flex;
+    gap: 32px;
+}
+
+.inf a {
+    text-decoration: none;
+    color: black;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.inf a:hover{
+    text-decoration: underline;
+}
+
+.part2{
+    margin: 200px 0px ;
+}
+
+.badge {
+  display: inline-flex;
+  align-items: center;
+  padding: 8px 16px;
+  gap: 10px;
+  background-color: #e8eefd; 
+  border-radius: 20px;     
+}
+
+.badge-dot {
+  width: 8px;
+  height: 8px;
+  background-color: #3b66d5; 
+  border-radius: 50%;      
+}
+
+.badge-text {
+  color: #1a337e;           
+  font-family: sans-serif;   
+  font-size: 14px;
+}
+
+.part2  h1 {
+    width: 1000px;
+    height: 300px;
+    font-size: 90px;
+}
+
+
+
+
+.hero-action {
+  display: flex;
+  justify-content: space-between; 
+  align-items: center;            
+  gap: 40px;                     
+}
+
+.hero-text {
+  font-family: 'Manrope', sans-serif;
+  font-size: 18px;
+  line-height: 1.5;
+  color: #1a1a1a;
+}
+
+.btn-primary {
+  display: inline-flex;
+  align-items: center;
+  gap: 12px;                      
+  background-color: #18191b;     
+  color: #ffffff;                 
+  text-decoration: none;         
+  padding: 14px 28px;           
+  border-radius: 30px;            
+  font-family: 'Manrope', sans-serif;
+  font-size: 16px;         
+  transition: background-color 0.5s ease; 
+}
+
+.btn-primary:hover {
+  background-color: hotpink;      
+}
+
+.btn-arrow {
+  font-size: 18px;
+}
+
+.ubx{
+    display: flex;
+    background-color: white;
+    padding-bottom: 40px;
+    background-color: #e7e7e2;
+
+}
+
+.ubx1{
+    width: 400px;
+    margin: 20px 0px 0px 40px;
+}
+
+.ubx2{
+    margin-left: 200px;
+}
+
+.ubx2 .pp {
+    width: 500px;
+    font-size: 30px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.dva{
+    display: flex;
+    gap: 20px;
+}
+
+.dva p {
+    width: 280px;
+    font-size: 13px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: gray;
+}
+
+
+.about-tags .tag{
+    margin-right: 10px;
+    border-radius: 30px;
+    border: 1px solid grey;
+    padding: 2px 5px;
+}
+.about-tags{
+    margin-top: 10px;
+
+}
+
+
+
+.portfolio {
+  font-family: 'Manrope', sans-serif;
+  padding: 60px 0;
+}
+
+.portfolio-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-end; 
+  border-bottom: 1px solid #1c1c1e; /* Темная линия под заголовком */
+  padding-bottom: 16px;
+  margin-bottom: 40px;
+}
+
+
+.portfolio-title {
+  font-size: 36px;
+  font-weight: 1500;
+  color: #1c1c1e;
+}
+
+.portfolio-count {
+  font-size: 14px;
+  color: #8e8e93;
+}
+
+.portfolio-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr); 
+  gap: 24px; 
+}
+
+.card-image-wrap {
+  aspect-ratio: 4 / 3; 
+  margin-bottom: 20px;
+}
+
+.card-image {
+  width: 100%;
+  height: 100%;
+}
+
+
+
+.card-category {
+  display: block;
+  font-size: 11px;
+  font-weight: 600;
+  color: #0055ff;
+  letter-spacing: 0.05em;
+  margin-bottom: 10px;
+}
+
+.card-title {
+  font-size: 22px;
+  font-weight: 500;
+  color: #1c1c1e;
+  margin: 0 0 10px 0;
+}
+
+.card-desc {
+  font-size: 14px;
+  line-height: 1.5;
+  color: #636366;
+}
+
+
+
+.footer{
+  background-color: #BFDCFF;
+  height: auto;
+  padding-bottom: 20px;
+}
+
+.main-f{
+  margin-left: 40px;
+}
+
+.main-f h1 {
+  font-size: 60px;
+  width: 700px;
+}
+
+.main-f p  {
+  margin-top: 100px;
+}
+
+.des{
+  display: flex;
+  justify-content: space-between;
+}
+
+
+.des  a  {
+  color: black;
+}
+
+.s-part a{
+    margin-right: 20px;
+    text-decoration: none;
+}
+
+
+
+#scrollTopBtn {
+    position: fixed;
+    bottom: 30px;
+    right: 30px;
+    width: 50px;
+    height: 50px;
+    border: none;
+    border-radius: 50%;
+    background-color: #18191b;
+    color: white;
+    font-size: 28px;
+}
+
+#scrollTopBtn:hover {
+    background-color: #3b66d5;
+}
